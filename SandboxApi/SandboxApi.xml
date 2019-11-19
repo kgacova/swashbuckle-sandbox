@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SandboxApi</name>
+    </assembly>
+    <members>
+        <member name="T:SandboxApi.Controllers.WeatherForecastController">
+            <summary>
+            A controller for CRUD operations with weather forecast
+            </summary>
+        </member>
+        <member name="M:SandboxApi.Controllers.WeatherForecastController.Get">
+            <summary>
+            Get all weather forecasts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SandboxApi.Controllers.WeatherForecastController.Post">
+            <summary>
+            Post weather information
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

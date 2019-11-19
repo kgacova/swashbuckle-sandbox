@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Models</name>
+    </assembly>
+    <members>
+        <member name="T:Models.WeatherForecast">
+            <summary>
+            Detailed weather forecast
+            </summary>
+        </member>
+        <member name="P:Models.WeatherForecast.Date">
+            <summary>
+            The date for the forecast
+            </summary>
+        </member>
+        <member name="P:Models.WeatherForecast.TemperatureC">
+            <summary>
+            Temperature in degrees Celsius 
+            </summary>
+        </member>
+    </members>
+</doc>

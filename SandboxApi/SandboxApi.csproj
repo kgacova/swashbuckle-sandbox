@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>7e103148-f4c1-4e64-b404-f5edcd20c1a5</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>SandboxApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.OpenApi" Version="1.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj" />
+  </ItemGroup>
+
+</Project>
